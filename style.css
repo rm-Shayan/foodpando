@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+body{
+    margin: 0;
+padding: 0;
+font-family:  "Open Sans", arial, sans-serif;
+overflow-x: hidden;
+}
+.max-w-xl{
+    max-width: 1300px;
+    margin: 0 auto;
+    position: relative;
+}
+.header{
+    width: 100%;
+    box-shadow: 0px 0px 2px  rgba(0,0,0,0.4);
+    position: fixed;
+    z-index: 9;
+    background: #fff;
+    
+}
+.navbar{
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.4rem;
+}
+.logo{
+    padding: 1rem 0;
+  
+}
+.logo>span{
+    color:#ff2b85 ;
+    font-size: 1.8rem;
+    cursor: pointer;
+    font-weight: 800px;
+    font-family:  "Open Sans", arial, sans-serif;
+}
+.svg1>svg{
+    cursor: pointer;
+   font-size: 37px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.svg2{
+   display: flex;
+  
+   
+}
+.btn1{
+   border: none;
+   cursor: pointer;
+}
+.BG>span{
+   display: inline-block;
+   font-size: 24px;
+   padding: 5px 10px;
+}
+.BG>span>form{
+   display: inline-block;
+   
+}
+.BG>span>form>select{
+   
+   height: 10px;
+   width: 30px;
+   border: none;
+   background: transparent;
+}
+
+.btn>span{
+    color: #ff2b85;
+    font-size: 1rem;
+    align-items: center;
+    
+}
+.fa-globe{
+   font-size: 24px;
+   color: #ff2b85;
+}
+.BG{
+   margin-left:9px ;
+}
+.svg1,.svg2>svg{
+   align-self:center ;
+}
+/*
+content below from navbar */
+.main{
+   width: 100%;
+position: relative;
+top: 80px;
+}
+/* <!-- page content --> */
+section.hero{
+  padding:0 1rem;
+  height: 500px;
+  border: 2px solid transparent; 
+  position: relative;
+}
+.hero h2{
+    font-weight: 300px;
+    font-size: 2rem;
+    margin-top: 9rem;
+    min-width: 220px;
+    width: 70%;
+ color: #3a3633;
+}
+.bg-wrapper{
+   
+  background: url('./asset/images/refresh-hero-home-pk.webp');
+  background-repeat: no-repeat;
+ 
+  background-size: cover;
+    width: 33%;
+    height: 100%;
+    margin-left: 67%;
+    z-index: -1;
+     position: absolute;
+     top: -29px;
+    float: right;
+     max-height: 335px;
+}
+.hero .container{
+    margin-top: 4rem;
+}
+.container{
+  
+    margin-top: 4rem;
+}
+  .container .input-bar{
+    position: relative;
+    
+}
+
+.container input{
+   width: 100%;
+   padding: 1.5rem 1rem;
+   border: 1px sold #dcdcdc;
+   border-radius: 10px;
+   outline: none;
+   cursor: pointer;
+   font-size: 0.9rem;
+   box-shadow: 0 0.3rem 2rem rgba(0,0,0,10%);
+}
+.container input::placeholder{
+    color:  darkgrey;
+}
+.input-bar>svg{
+position: absolute;
+top:20px  ;
+right:20px ;
+}
+ 
+ .container button{
+    background: #ff2b85;
+    margin-top: 1rem;
+
+    color: #dcdcdc;
+    border: none;
+    padding: 0 5rem;
+    width: 100%;
+    height: 64px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    cursor: pointer;
+ } 
+ /* section partner */
+ .partners{
+margin: 4rem 0;
+position: relative;
+ }
+ .partners .backdrop{
+padding: 0 2rem;
+font-size: 4.5rem;
+   color: rgba(188,186,186, 0.12);
+
+font-weight: 900;
+position: absolute;
+top: -40px;
+left: -10px;
+z-index: -2;
+ }
+ .partners .caption{
+    padding: 0 2rem;
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+ }
+ .partners .background-image{
+    background: url(./asset/images/home-vendor-pk.webp);
+    background-position: center;
+    min-height: 280px;
+  background-size: cover;
+  height: 100%;
+ }
+ .partners .content{
+background-color: white;
+box-shadow:0px 2px 28px rgba(0,0,0,12%) ;
+margin: 0 1rem;
+padding: 1rem ;
+margin-top: -4rem;
+
+ }
+ .content>p{
+  font-size: 0.9rem;
+  color: rgba(174,174,174);
+ }
+.content>.text-content{
+font: 1.2rem;
+margin-bottom: 1.5rem;
+color: rgb(18, 17,17);
+}
+.content>button{
+    background: #ff2b85;
+    margin-top: 1rem;
+
+    color: #dcdcdc;
+    border: none;
+  
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+ @media only screen and (  min-width:960px) {
+  .svg1{
+    display: none;
+  }
+    .logo>span>svg{
+        display: inline;
+     
+    }
+   
+    .btn{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+       border: none;
+    background: transparent;
+       margin-right: 20px;
+       padding:0px 8px;
+     }
+     .btn>span{
+        align-self: center;
+        font-size: 1.1rem;
+        color: #ff2b85;
+     }
+     .svg2>svg{
+    align-self: center;
+     }
+    .hero .bg-wrapper{
+        max-height: 400px;
+    }
+    .partners .content{
+        max-width: 450px;
+    }
+}
+@media only screen and (  min-width:768px) {
+    .logo>span>svg{
+        display: inline;
+    }
+    .svg1{
+        display: none;
+      }
+      .hero .container{
+       
+        background: white;
+        box-shadow: 0 0.3rem 2rem rgba(0,0,0,10%);
+        display: flex;
+        padding: 2rem ;
+      }
+      section.hero{
+        padding: 0 1rem;
+      }
+      .hero>.bg-wrapper{
+        max-height: 900px;
+      }
+      .container .input-bar{
+        width: 80%;
+      }
+      .container input{
+        box-shadow: none;
+      }
+      .container button{
+     margin: 0;
+        width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    max-width: 960px;
+   
+      }
+     .hero h2{
+        padding: 0 2rem;
+     }
+   /* partner sec */
+   .partners .backdrop{
+padding: 0 3rem;
+   }
+   .partners .caption{
+    padding: 0 3rem;
+   }
+   .partners .background-image{
+min-height: 404px;
+   }
+   .partners .content{
+margin: 0 3rem;
+margin-top: -20rem;
+max-width: 350px;
+padding: 2rem;
+   }
+   .content p{
+font-size: 1rem;
+   }
+   .content .text-content{
+    font-size:1.5rem;
+   }
+   .content .button{
+    font-size: 1rem;
+   }
+ }
+  @media only screen and (  max-width:760px) {
+    .logo>span>svg{
+        display: none;
+    }
+   .btn{
+    display: none;
+   }
+ .btn1{
+display: none
+ }
+ 
+ 
+}
+
+ @media only screen and (  max-width:380px) {
+    .logo>span>svg{
+        display: none;
+    }
+   .btn{
+    display: none;
+   }
+ .btn1{
+display: none
+ }
+ 
+ }
+@media  only screen and (min-width:1264) {
+    .hero .bg-wrapper{
+        max-height: 500px;
+    }
+.hero h2{
+    font-size: 2.8rem;
+}
+.partners .content{
+max-width: 600px;
+text-align: right;
+}
+.content button{
+max-width: 240px;
+margin-top: 2rem;
+}
+.content p{
+text-align: left;
+}
+.partners .backdrop{
+    font-size: 10rem;
+top: -130px;
+left: -40px;
+}
+.partners .caption{
+    font-size: 1.5rem;
+}
+}
+@media only screen and (min-width: 1424px) {
+    .hero .bg-wrapper{
+        max-height: 550px;
+    
+}
+.hero h2{
+    font-size: 3.2rem;
+}
+
+}
