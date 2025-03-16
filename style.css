@@ -232,6 +232,29 @@ color: rgb(18, 17,17);
     cursor: pointer;
 }
 
+/* faqs */
+.faq{
+    margin-top: 4rem;
+    padding-left: 1rem;
+}
+.heading{
+    font-size: 1.7rem;
+    font-weight: bold;
+    line-height: 2.8rem;
+ 
+}.list{
+ font-size: 1.2rem;
+ padding:1rem 0rem ;
+}
+.text{
+    font-size: 1.3rem;
+    color: black;
+
+}.sub-heading{
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 2rem;
+}
  @media only screen and (  min-width:960px) {
   .svg1{
     display: none;
